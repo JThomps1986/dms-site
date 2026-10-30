@@ -679,3 +679,16 @@ label {
 .brand-cycle {
   mix-blend-mode: multiply; /* the illustration's faint off-white background disappears into the white card */
 }
+
+/* ---- demo banner: bottom-right corner, clear of error messages (which appear top-centre) ------------------------ */
+.demo-banner {
+  left: auto;
+  right: 1rem;
+  top: auto;
+  bottom: 1rem;
+  transform: none;
+}
+
+.loader-container {
+  bottom: 3.4rem !important; /* keep the loading indicator above the banner */
+}
