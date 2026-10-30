@@ -7,3 +7,7 @@ Deploy: connect this repository in Cloudflare with no build command and `npx wra
 Sign in with any credentials. Changes are not saved.
 
 Built from the `itg-front-end` repository with `npm run build:demo`.
+
+## Theme
+
+`premium.css` is a design-elevation layer over the product stylesheet (Inter, deep-navy sidebar, hairline borders, soft elevation, tinted status badges, refined tables, tiles and buttons). It is linked from `index.html` after the main stylesheet. It is for review here before being ported into the `itg-front-end` source. When replacing the build files, keep `premium.css` and the `<link>` tags added before `</head>` in `index.html`.
