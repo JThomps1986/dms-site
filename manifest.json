@@ -1,0 +1,10 @@
+{
+  "name": "DMS",
+  "short_name": "DMS",
+  "description": "DMS: data migration",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#003b5c",
+  "background_color": "#f4f4f4",
+  "icons": []
+}
